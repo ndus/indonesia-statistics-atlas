@@ -1,15 +1,24 @@
 <!doctype html>
+<!-- Provides the shared navigation, page outlet, and source footer. -->
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Weeknight Kitchen</title>
+<meta name="theme-color" content="#faf7f1">
+<meta name="description" content="Indonesia in Numbers: a local, interactive atlas of population, economy, trade, society and all 38 provinces.">
+<link rel="icon" href="data:,">
+<title>Indonesia in Numbers</title>
 <link rel="stylesheet" href="style.css">
 <script type="module" src="main.js"></script>
 </head>
 <body>
-<header><a href="#/">Weeknight Kitchen</a></header>
-<main id="app"></main>
-<footer>Six recipes for busy evenings.</footer>
+<a class="skip-link" href="#app">Skip to content</a>
+<div class="edition"><div class="wrap"><span>NUSAANGKA <span class="edition-divider">/</span> THE INDONESIA STATISTICS ATLAS</span><span class="edition-right">A NATION, SEEN THROUGH DATA <span class="tiny-flag" aria-hidden="true"></span></span></div></div>
+<header class="site-header"><div class="wrap header-inner">
+<a class="brand" href="#/" aria-label="Indonesia in Numbers, overview"><span class="brand-mark" aria-hidden="true">N<span>°</span></span><span>Indonesia <em>in</em> Numbers<span class="brand-sub">NusaAngka — the Indonesia statistics atlas</span></span></a>
+<nav aria-label="Main navigation"><a href="#/">Overview</a><a href="#/population">Population</a><a href="#/economy">Economy</a><a href="#/trade">Trade</a><a href="#/society">Society</a><a href="#/regions">Regions</a><a href="#/about">About</a></nav>
+</div></header>
+<main id="app" class="wrap" tabindex="-1"></main>
+<footer class="site-footer"><div class="wrap footer-top"><a class="footer-brand" href="#/">NusaAngka<span>The Indonesia statistics atlas</span></a><p>A clearer picture of a remarkable archipelago.<br>Selected indicators · 2019–2025 · An offline reference edition</p><a href="#/about">Sources & methods <span aria-hidden="true">↗</span></a></div><div class="wrap footer-bottom"><span>Sources: BPS — Statistics Indonesia · World Bank World Development Indicators · National nutrition survey · Industry internet survey</span><span>38 PROVINCES. COUNTLESS STORIES.</span></div></footer>
 </body>
 </html>
